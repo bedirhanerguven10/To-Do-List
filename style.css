@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Tapestry&display=swap');
+
+body {
+        background: url(./kelly-sikkema-dgVSuJu58C0-unsplash.jpg) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+      
+}
+
+main #head {
+    font-family: 'Orbitron', sans-serif;
+  
+}
+
+.inputData {
+    width: 30vw;
+    outline: none;
+    border: 2px solid burlywood;
+}
+.inputdata button {
+    outline: none;
+    border: 2px solid rgb(158, 114, 56);
+    border-radius: 30%;
+    font-size: 1.1rem;
+}
+
+.todo-list {
+    /* background-color: rgba(0, 0, 0, .7); */
+    border-radius: 10px;
+    /* width: 30vw; */
+}
+
+.listItems {
+    margin-top: 20px;
+}
+
+.tryfirst {
+    text-decoration: line-through;
+    /* color: lightgray; */
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 20px;
+    color: black;
+    width: 30vw;
+    margin: auto;   
+}
+
+.item i {
+    padding-right: 10px;
+}
+
+.listItems ul {
+    justify-content: space-between;
+}
+
+.check  {
+    margin-right: 5px;
+}
+
